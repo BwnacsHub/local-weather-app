@@ -1,3 +1,5 @@
 {
-  "type": "docker"
+  "version": 1,
+  "type": "docker",
+  "name": "local-weather"
 }
