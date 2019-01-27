@@ -17,7 +17,7 @@ describe('CurrentWeatherComponent', () => {
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CurrentWeatherComponent)
+    fixture = TestBed.createComponent(CurrentWeatherComponent);
     component = fixture.componentInstance;
   });
 

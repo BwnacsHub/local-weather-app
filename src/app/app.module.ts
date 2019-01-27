@@ -10,10 +10,13 @@ import { CurrentWeatherComponent } from './current-weather/current-weather.compo
 import { WeatherService } from './weather/weather.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CitySearchComponent } from './city-search/city-search.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CurrentWeatherComponent
+    CurrentWeatherComponent,
+    CitySearchComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +24,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     HttpClientModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [WeatherService],
   bootstrap: [AppComponent]
